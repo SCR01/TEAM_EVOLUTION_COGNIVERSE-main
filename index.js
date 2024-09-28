@@ -51,3 +51,5 @@ app.listen(port, (err) => {
         console.log(`Server running on port ${port}`);
     }
 });
+const cors = require('cors');
+app.use(cors());
