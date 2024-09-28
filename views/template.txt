@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="description" content="A Fintech site - A clean and simple interface to organize your favourite websites">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/css/styles.css"> <!-- Link to CSS file -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet"> <!-- Google fonts for the website -->
+  <title>FinNest</title>
+</head>
+<body>
+
+  <!-- Hero section starts here -->
+  <section class="hero">
+    <nav class="topnav">
+      
+      <ul>
+        <li><a href="/">Home</a></li> 
+        <li><a href="/market">Market</a></li>
+        <li><a href="/expert">Expert</a></li>
+        <li><a href="#Mem">Membership</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/profile">Login</a></li>
+      </ul>
+      <img src="images/icon-hamburger.svg" alt="hamburger menu" class="mobile-menu" id="mobileMenu">
+    </nav>
+
+    </section>
+
+  <div class="mobile-navigation" id="mobileNav">
+    <nav>
+      <ul>
+        <li><a href="#">market</a></li>
+        <li><a href="#">Expert</a></li>
+        <li><a href="#">contact</a></li>
+        <li><a href="#">login</a></li>
+      </ul>
+
+      <ul>
+        <li><a href="#"><img src="images/icon-facebook.svg" alt="facebook icon"></a></li>
+        <li><a href="#"><img src="images/icon-twitter.svg" alt="twitter icon"></a></li>
+      </ul>
+    </nav>
+  </div>
+
+
+
+
+  <!-- Contact Us section starts here -->
+  <section class="contact">
+    <h3>35,000+ already joined</h3>
+    <h4>Stay up-to-date with what<br> we’re doing</h4>
+
+    <form action="#" autocomplete="off" id="formbox" onsubmit="return validateForm()">
+      <input type="text" required placeholder="Enter your email address" id="email" class="input">
+      <img src="images/icon-error.svg" alt="error icon" class="error" id="img">
+      <button type="submit">Contact Us</button>
+      <span id="alert"></span>
+    </form>
+  </section>
+
+  <!-- Footer starts here -->
+  <footer id="col">
+    <nav>
+      <a href="#"><img src="images/logo2.png" alt="bookmark logo"></a>
+      <ul class="links">
+        <li><a href="#">features</a></li>
+        <li><a href="#">pricing</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+      <ul class="social-links">
+         <li><a href="#">Instagram</a></li>
+        <li><a href="#">X(formerly Twitter)</a></li>
+      </ul>
+    </nav>
+
+    <p class="attribution">
+      Founded by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Team Evolution</a>. 
+      Coded by <a href="https://www.linkedin.com/in/uzochukwuokafor/" target="_blank" rel="noopener">Reddy Brothers</a>.
+    </p>
+  </footer>
+  
+  <script src="/js/main.js"></script>
+</body>
+</html>
